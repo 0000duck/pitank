@@ -1,0 +1,8 @@
+prefix=/home/sergio/Downloads/3pi_gaming/devel
+
+Name: qt_tutorials
+Description: Description of qt_tutorials
+Version: 0.2.10
+Cflags: -I/home/sergio/Downloads/3pi_gaming/devel/include
+Libs: -L/home/sergio/Downloads/3pi_gaming/devel/lib 
+Requires: message_runtime std_msgs roscpp

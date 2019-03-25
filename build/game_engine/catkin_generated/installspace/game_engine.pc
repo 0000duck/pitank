@@ -1,0 +1,8 @@
+prefix=/home/sergio/Downloads/3pi_gaming/install
+
+Name: game_engine
+Description: Description of game_engine
+Version: 0.1.0
+Cflags: -I/home/sergio/Downloads/3pi_gaming/install/include
+Libs: -L/home/sergio/Downloads/3pi_gaming/install/lib 
+Requires: message_runtime

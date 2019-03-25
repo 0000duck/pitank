@@ -1,0 +1,8 @@
+prefix=/home/sergio/Downloads/3pi_gaming/install
+
+Name: controls
+Description: Description of controls
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sergio/Downloads/3pi_gaming/install/lib 
+Requires: 

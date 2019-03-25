@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="controls" type="joystick" name="joystick" output="screen"/>
+</launch>

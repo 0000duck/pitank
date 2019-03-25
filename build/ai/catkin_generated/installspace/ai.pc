@@ -1,0 +1,8 @@
+prefix=/home/sergio/Downloads/3pi_gaming/install
+
+Name: ai
+Description: Description of ai
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sergio/Downloads/3pi_gaming/install/lib 
+Requires: 

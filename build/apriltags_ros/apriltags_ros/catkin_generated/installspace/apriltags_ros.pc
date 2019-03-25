@@ -1,0 +1,8 @@
+prefix=/home/sergio/Downloads/3pi_gaming/install
+
+Name: apriltags_ros
+Description: Description of apriltags_ros
+Version: 0.1.2
+Cflags: -I/home/sergio/Downloads/3pi_gaming/install/include -I/usr/include/eigen3
+Libs: -L/home/sergio/Downloads/3pi_gaming/install/lib -lapriltag_detector
+Requires: apriltags image_transport roscpp sensor_msgs geometry_msgs tf cv_bridge message_runtime nodelet std_msgs

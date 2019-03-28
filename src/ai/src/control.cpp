@@ -36,7 +36,7 @@ void robotDescriptionReceived(const game_engine::RobotDescriptionArray& msg){
 
 
 void GoToXY(int id, int xf, int yf){
-    int state = ROTATE;
+    /*int state = ROTATE;
     while(1){
         switch (state){
 
@@ -54,7 +54,7 @@ void GoToXY(int id, int xf, int yf){
 
             case TRANSL:
         }
-    }
+    }*/
 }
 
 void* decision_makingA(void *id){
@@ -114,7 +114,7 @@ int main(int argc, char **argv){
         ros::init(argc, argv, "ai");
         ros::NodeHandle nh;
 
-        vel_pub[0] = nh.advertise<geometry_msgs::Twist>("/cmd_velB", 1);
+        vel_pub = nh.advertise<geometry_msgs::Twist>("/cmd_velB", 1);
         uistate_sub = nh.subscribe("/ui_state", 1000, &uiStateReceived);
         robot_sub = nh.subscribe("/robots_description", 1000, &robotDescriptionReceived);
 

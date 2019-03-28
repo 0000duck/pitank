@@ -17,7 +17,7 @@ using namespace std;
 #define MAX_ETF PI/6
 
 geometry_msgs::Twist vel[2];
-ros::Publisher vel_pub[2];
+ros::Publisher vel_pub;
 ros::Subscriber uistate_sub, robot_sub;
 pthread_t t[2];
 int id = 0;
@@ -44,5 +44,10 @@ struct ui_state {
 
 std::vector<robot_info> robot;
 ui_state uistate;
+
+void move_forward(int id);
+void move_back(int id);
+void move_right(int id);
+void move_left(int id);
 
 #endif

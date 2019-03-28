@@ -59,6 +59,10 @@ ros/message_operations.h
 /home/sergio/Downloads/3pi_gaming/src/ai/include/ai/control.hpp
 ros/ros.h
 -
+stdlib.h
+-
+math.h
+-
 geometry_msgs/Twist.h
 -
 game_engine/RobotDescription.h

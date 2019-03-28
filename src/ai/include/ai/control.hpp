@@ -2,6 +2,8 @@
 #define CONTROL_HPP
 
 #include <ros/ros.h>
+#include <stdlib.h>
+#include <math.h>
 #include <geometry_msgs/Twist.h>
 #include "game_engine/RobotDescription.h"
 #include "game_engine/RobotDescriptionArray.h"
@@ -9,8 +11,10 @@
 
 using namespace std;
 
+#define PI 3.14159265
 #define ROTATE 0
 #define TRANSL 1
+#define MAX_ETF PI/6
 
 geometry_msgs::Twist vel[2];
 ros::Publisher vel_pub[2];

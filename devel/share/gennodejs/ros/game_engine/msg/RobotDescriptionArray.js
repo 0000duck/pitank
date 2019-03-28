@@ -58,7 +58,7 @@ class RobotDescriptionArray {
 
   static getMessageSize(object) {
     let length = 0;
-    length += 26 * object.robot.length;
+    length += 34 * object.robot.length;
     return length + 4;
   }
 
@@ -69,7 +69,7 @@ class RobotDescriptionArray {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '4200d8a7d47e39131affb929c77aa595';
+    return 'a10b3056d03141a072c7ffcaaf2ce2ff';
   }
 
   static messageDefinition() {
@@ -83,8 +83,8 @@ class RobotDescriptionArray {
     int8 tagId
     int16 x
     int16 y
-    float32 height
-    float32 angle
+    float64 height
+    float64 angle
     uint8 addr0
     uint8 addr1
     int8 vel1

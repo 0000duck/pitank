@@ -67,17 +67,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -110,6 +99,17 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -122,16 +122,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target install/local
-install/local/fast: install/local
+# Special rule for the target test
+test/fast: test
 
-.PHONY : install/local/fast
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -211,19 +211,19 @@ game_engine_generate_messages_py/fast:
 .PHONY : game_engine_generate_messages_py/fast
 
 # Convenience name for target.
-game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-game_engine_generate_messages_cpp: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+game_engine_generate_messages_nodejs: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
 
-.PHONY : game_engine_generate_messages_cpp
+.PHONY : game_engine_generate_messages_nodejs
 
 # fast build rule for target.
-game_engine_generate_messages_cpp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build
-.PHONY : game_engine_generate_messages_cpp/fast
+game_engine_generate_messages_nodejs/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build
+.PHONY : game_engine_generate_messages_nodejs/fast
 
 # Convenience name for target.
 game_engine/CMakeFiles/game_engine_gennodejs.dir/rule:
@@ -269,6 +269,36 @@ _game_engine_generate_messages_check_deps_RobotDescription: game_engine/CMakeFil
 _game_engine_generate_messages_check_deps_RobotDescription/fast:
 	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/build.make game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/build
 .PHONY : _game_engine_generate_messages_check_deps_RobotDescription/fast
+
+# Convenience name for target.
+game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/rule
+.PHONY : game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/rule
+
+# Convenience name for target.
+_game_engine_generate_messages_check_deps_UIState: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/rule
+
+.PHONY : _game_engine_generate_messages_check_deps_UIState
+
+# fast build rule for target.
+_game_engine_generate_messages_check_deps_UIState/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/build.make game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/build
+.PHONY : _game_engine_generate_messages_check_deps_UIState/fast
+
+# Convenience name for target.
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+game_engine_generate_messages_cpp: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+
+.PHONY : game_engine_generate_messages_cpp
+
+# fast build rule for target.
+game_engine_generate_messages_cpp/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build
+.PHONY : game_engine_generate_messages_cpp/fast
 
 # Convenience name for target.
 game_engine/CMakeFiles/game_engine_gencpp.dir/rule:
@@ -344,21 +374,6 @@ game_engine_generate_messages_lisp: game_engine/CMakeFiles/game_engine_generate_
 game_engine_generate_messages_lisp/fast:
 	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/build
 .PHONY : game_engine_generate_messages_lisp/fast
-
-# Convenience name for target.
-game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-game_engine_generate_messages_nodejs: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
-
-.PHONY : game_engine_generate_messages_nodejs
-
-# fast build rule for target.
-game_engine_generate_messages_nodejs/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build
-.PHONY : game_engine_generate_messages_nodejs/fast
 
 # Convenience name for target.
 game_engine/CMakeFiles/game_engine_genlisp.dir/rule:
@@ -1246,25 +1261,26 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... rebuild_cache"
 	@echo "... game_engine"
 	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... game_engine_genpy"
 	@echo "... game_engine_generate_messages_py"
-	@echo "... game_engine_generate_messages_cpp"
+	@echo "... install/local"
+	@echo "... game_engine_generate_messages_nodejs"
 	@echo "... install"
 	@echo "... game_engine_gennodejs"
 	@echo "... game_engine_generate_messages"
 	@echo "... _game_engine_generate_messages_check_deps_RobotDescription"
+	@echo "... test"
+	@echo "... _game_engine_generate_messages_check_deps_UIState"
+	@echo "... game_engine_generate_messages_cpp"
 	@echo "... game_engine_gencpp"
 	@echo "... game_engine_geneus"
 	@echo "... game_engine_generate_messages_eus"
 	@echo "... _game_engine_generate_messages_check_deps_RobotDescriptionArray"
 	@echo "... game_engine_generate_messages_lisp"
-	@echo "... install/local"
-	@echo "... game_engine_generate_messages_nodejs"
 	@echo "... game_engine_genlisp"
 	@echo "... include/graphics/moc_dialog.o"
 	@echo "... include/graphics/moc_dialog.i"

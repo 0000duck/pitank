@@ -1000,7 +1000,8 @@ cv_bridge_DIR:PATH=/opt/ros/lunar/share/cv_bridge/cmake
 //Value Computed by CMake
 game_engine_BINARY_DIR:STATIC=/home/sergio/Downloads/3pi_gaming/build/game_engine
 
-game_engine_DIR:PATH=
+//The directory containing a CMake configuration file for game_engine.
+game_engine_DIR:PATH=/home/sergio/Downloads/3pi_gaming/devel/share/game_engine/cmake
 
 //Value Computed by CMake
 game_engine_SOURCE_DIR:STATIC=/home/sergio/Downloads/3pi_gaming/src/game_engine

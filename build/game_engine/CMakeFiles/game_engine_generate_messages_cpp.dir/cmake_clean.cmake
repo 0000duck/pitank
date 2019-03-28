@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game_engine_generate_messages_cpp"
+  "/home/sergio/Downloads/3pi_gaming/devel/include/game_engine/UIState.h"
   "/home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescriptionArray.h"
   "/home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescription.h"
 )

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg;/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg"
+messages_str = "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg;/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg;/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg"
 services_str = ""
 pkg_name = "game_engine"
 dependencies_str = "std_msgs;geometry_msgs"

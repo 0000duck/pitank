@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game_engine_generate_messages_nodejs"
+  "/home/sergio/Downloads/3pi_gaming/devel/share/gennodejs/ros/game_engine/msg/UIState.js"
   "/home/sergio/Downloads/3pi_gaming/devel/share/gennodejs/ros/game_engine/msg/RobotDescriptionArray.js"
   "/home/sergio/Downloads/3pi_gaming/devel/share/gennodejs/ros/game_engine/msg/RobotDescription.js"
 )

@@ -115,12 +115,12 @@ struct MD5Sum< ::game_engine::RobotDescriptionArray_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "4200d8a7d47e39131affb929c77aa595";
+    return "a10b3056d03141a072c7ffcaaf2ce2ff";
   }
 
   static const char* value(const ::game_engine::RobotDescriptionArray_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x4200d8a7d47e3913ULL;
-  static const uint64_t static_value2 = 0x1affb929c77aa595ULL;
+  static const uint64_t static_value1 = 0xa10b3056d03141a0ULL;
+  static const uint64_t static_value2 = 0x72c7ffcaaf2ce2ffULL;
 };
 
 template<class ContainerAllocator>
@@ -147,8 +147,8 @@ int8 teamId\n\
 int8 tagId\n\
 int16 x\n\
 int16 y\n\
-float32 height\n\
-float32 angle\n\
+float64 height\n\
+float64 angle\n\
 uint8 addr0\n\
 uint8 addr1\n\
 int8 vel1\n\

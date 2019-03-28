@@ -79,10 +79,10 @@ struct RobotDescription_
    typedef int16_t _y_type;
   _y_type y;
 
-   typedef float _height_type;
+   typedef double _height_type;
   _height_type height;
 
-   typedef float _angle_type;
+   typedef double _angle_type;
   _angle_type angle;
 
    typedef uint8_t _addr0_type;
@@ -199,12 +199,12 @@ struct MD5Sum< ::game_engine::RobotDescription_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "343c60a2448fde8461e5a48bb9f857c4";
+    return "35b35bffdcea4af3c10704857437163d";
   }
 
   static const char* value(const ::game_engine::RobotDescription_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x343c60a2448fde84ULL;
-  static const uint64_t static_value2 = 0x61e5a48bb9f857c4ULL;
+  static const uint64_t static_value1 = 0x35b35bffdcea4af3ULL;
+  static const uint64_t static_value2 = 0xc10704857437163dULL;
 };
 
 template<class ContainerAllocator>
@@ -227,8 +227,8 @@ struct Definition< ::game_engine::RobotDescription_<ContainerAllocator> >
 int8 tagId\n\
 int16 x\n\
 int16 y\n\
-float32 height\n\
-float32 angle\n\
+float64 height\n\
+float64 angle\n\
 uint8 addr0\n\
 uint8 addr1\n\
 int8 vel1\n\
@@ -305,9 +305,9 @@ struct Printer< ::game_engine::RobotDescription_<ContainerAllocator> >
     s << indent << "y: ";
     Printer<int16_t>::stream(s, indent + "  ", v.y);
     s << indent << "height: ";
-    Printer<float>::stream(s, indent + "  ", v.height);
+    Printer<double>::stream(s, indent + "  ", v.height);
     s << indent << "angle: ";
-    Printer<float>::stream(s, indent + "  ", v.angle);
+    Printer<double>::stream(s, indent + "  ", v.angle);
     s << indent << "addr0: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.addr0);
     s << indent << "addr1: ";

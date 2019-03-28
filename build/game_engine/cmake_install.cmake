@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/game_engine/msg" TYPE FILE FILES
     "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg"
     "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg"
+    "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg"
     )
 endif()
 

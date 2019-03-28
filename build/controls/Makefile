@@ -100,17 +100,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -121,6 +110,17 @@ install/strip: preinstall
 install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -164,6 +164,231 @@ preinstall/fast:
 depend:
 	cd /home/sergio/Downloads/3pi_gaming/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+controls/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: controls/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+controls/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: controls/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_py.dir/build.make controls/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+# Convenience name for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_eus: controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_eus/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+.PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_nodejs: controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_nodejs/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+controls/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: controls/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+# Convenience name for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+controls/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_eus: controls/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_eus.dir/build.make controls/CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
+
+# Convenience name for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_nodejs: controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+.PHONY : roscpp_generate_messages_nodejs
+
+# fast build rule for target.
+roscpp_generate_messages_nodejs/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+.PHONY : roscpp_generate_messages_nodejs/fast
+
+# Convenience name for target.
+controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+controls/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: controls/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+# Convenience name for target.
+controls/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# fast build rule for target.
+std_msgs_generate_messages_eus/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 controls/CMakeFiles/xbee.dir/rule:
@@ -284,12 +509,27 @@ help:
 	@echo "... depend"
 	@echo "... list_install_components"
 	@echo "... install"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rebuild_cache"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_eus"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... test"
-	@echo "... edit_cache"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... xbee"
-	@echo "... joystick"
 	@echo "... install/strip"
+	@echo "... edit_cache"
+	@echo "... joystick"
 	@echo "... install/local"
 	@echo "... src/joystick.o"
 	@echo "... src/joystick.i"

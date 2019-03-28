@@ -246,7 +246,7 @@ gtest/preinstall: gtest/gtest/preinstall
 gtest/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=58,59 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=60,61 "Built target gmock"
 .PHONY : gtest/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,12 +278,12 @@ clean: gtest/CMakeFiles/gmock.dir/clean
 gtest/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=60,61,62 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=62,63 "Built target gmock_main"
 .PHONY : gtest/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gmock_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gmock_main.dir/rule
@@ -329,7 +329,7 @@ gtest/gtest/preinstall:
 gtest/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=63 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=64 "Built target gtest"
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,12 +361,12 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 gtest/gtest/CMakeFiles/gtest_main.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=64 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=65,66 "Built target gtest_main"
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/gtest/CMakeFiles/gtest_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/rule
@@ -444,7 +444,7 @@ clean: apriltags_ros/apriltags/CMakeFiles/_catkin_empty_exported_target.dir/clea
 apriltags_ros/apriltags/CMakeFiles/apriltags.dir/all:
 	$(MAKE) -f apriltags_ros/apriltags/CMakeFiles/apriltags.dir/build.make apriltags_ros/apriltags/CMakeFiles/apriltags.dir/depend
 	$(MAKE) -f apriltags_ros/apriltags/CMakeFiles/apriltags.dir/build.make apriltags_ros/apriltags/CMakeFiles/apriltags.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12 "Built target apriltags"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13 "Built target apriltags"
 .PHONY : apriltags_ros/apriltags/CMakeFiles/apriltags.dir/all
 
 # Include target in all.
@@ -529,683 +529,6 @@ qt_ros/qt_ros/preinstall:
 .PHONY : qt_ros/qt_ros/preinstall
 
 #=============================================================================
-# Directory level rules for directory ai
-
-# Convenience name for "all" pass in the directory.
-ai/all:
-
-.PHONY : ai/all
-
-# Convenience name for "clean" pass in the directory.
-ai/clean: ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-ai/clean: ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-ai/clean: ai/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-ai/clean: ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-ai/clean: ai/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-ai/clean: ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-ai/clean: ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-ai/clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-ai/clean: ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-ai/clean: ai/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-ai/clean: ai/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-ai/clean: ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-ai/clean: ai/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-ai/clean: ai/CMakeFiles/roscpp_generate_messages_py.dir/clean
-ai/clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-ai/clean: ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-ai/clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-ai/clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-ai/clean: ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-ai/clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : ai/clean
-
-# Convenience name for "preinstall" pass in the directory.
-ai/preinstall:
-
-.PHONY : ai/preinstall
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/geometry_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# clean rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# clean rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/roscpp_generate_messages_cpp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: ai/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# clean rule for target.
-ai/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# clean rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/std_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: ai/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# clean rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# clean rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# clean rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/std_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: ai/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# clean rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/roscpp_generate_messages_lisp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: ai/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# clean rule for target.
-ai/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# clean rule for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/roscpp_generate_messages_eus.dir
-
-# All Build rule for target.
-ai/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ai/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ai/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: ai/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# clean rule for target.
-ai/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ai/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/roscpp_generate_messages_py.dir
-
-# All Build rule for target.
-ai/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_py.dir/build.make ai/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_py.dir/build.make ai/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: ai/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# clean rule for target.
-ai/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_py.dir/build.make ai/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# clean rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/std_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# clean rule for target.
-ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# clean rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/roscpp_generate_messages_nodejs.dir
-
-# All Build rule for target.
-ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-.PHONY : roscpp_generate_messages_nodejs
-
-# clean rule for target.
-ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# clean rule for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Directory level rules for directory controls
 
 # Convenience name for "all" pass in the directory.
@@ -1215,6 +538,21 @@ controls/all: controls/CMakeFiles/joystick.dir/all
 .PHONY : controls/all
 
 # Convenience name for "clean" pass in the directory.
+controls/clean: controls/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+controls/clean: controls/CMakeFiles/roscpp_generate_messages_py.dir/clean
+controls/clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+controls/clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+controls/clean: controls/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+controls/clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+controls/clean: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+controls/clean: controls/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+controls/clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+controls/clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+controls/clean: controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+controls/clean: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+controls/clean: controls/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+controls/clean: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+controls/clean: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 controls/clean: controls/CMakeFiles/xbee.dir/clean
 controls/clean: controls/CMakeFiles/joystick.dir/clean
 
@@ -1224,6 +562,486 @@ controls/clean: controls/CMakeFiles/joystick.dir/clean
 controls/preinstall:
 
 .PHONY : controls/preinstall
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: controls/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+controls/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_py.dir/build.make controls/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_py.dir/build.make controls/CMakeFiles/roscpp_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: controls/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+controls/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_py.dir/build.make controls/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_eus: controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# clean rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_nodejs: controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# clean rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/roscpp_generate_messages_cpp.dir
+
+# All Build rule for target.
+controls/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: controls/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# clean rule for target.
+controls/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/roscpp_generate_messages_eus.dir
+
+# All Build rule for target.
+controls/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_eus.dir/build.make controls/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_eus.dir/build.make controls/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_eus: controls/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+.PHONY : roscpp_generate_messages_eus
+
+# clean rule for target.
+controls/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_eus.dir/build.make controls/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# clean rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/roscpp_generate_messages_nodejs.dir
+
+# All Build rule for target.
+controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_nodejs: controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+.PHONY : roscpp_generate_messages_nodejs
+
+# clean rule for target.
+controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# clean rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/roscpp_generate_messages_lisp.dir
+
+# All Build rule for target.
+controls/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: controls/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+.PHONY : roscpp_generate_messages_lisp
+
+# clean rule for target.
+controls/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make controls/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : controls/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/std_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# clean rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controls/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target controls/CMakeFiles/xbee.dir
@@ -1269,7 +1087,7 @@ clean: controls/CMakeFiles/xbee.dir/clean
 controls/CMakeFiles/joystick.dir/all:
 	$(MAKE) -f controls/CMakeFiles/joystick.dir/build.make controls/CMakeFiles/joystick.dir/depend
 	$(MAKE) -f controls/CMakeFiles/joystick.dir/build.make controls/CMakeFiles/joystick.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=65 "Built target joystick"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=67 "Built target joystick"
 .PHONY : controls/CMakeFiles/joystick.dir/all
 
 # Include target in all.
@@ -1354,7 +1172,7 @@ qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/all: qt_ros/qt_tutorials/C
 
 # Build rule for subdir invocation for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/rule
@@ -1378,11 +1196,11 @@ clean: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/clean
 # Target rules for target qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir
 
 # All Build rule for target.
-qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/all: ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/all: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/all: qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=80 "Built target qt_tutorials_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=81 "Built target qt_tutorials_generate_messages_cpp"
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1460,7 +1278,7 @@ all: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/rule
@@ -1516,11 +1334,11 @@ clean: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/clean
 # Target rules for target qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir
 
 # All Build rule for target.
-qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/all: ai/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/all: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/all: qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=81 "Built target qt_tutorials_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=82 "Built target qt_tutorials_generate_messages_eus"
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1549,16 +1367,16 @@ clean: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/cle
 # Target rules for target qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir
 
 # All Build rule for target.
-qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/all: ai/CMakeFiles/std_msgs_generate_messages_py.dir/all
+qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/all: controls/CMakeFiles/std_msgs_generate_messages_py.dir/all
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/all: qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=83,84 "Built target qt_tutorials_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=84 "Built target qt_tutorials_generate_messages_py"
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/rule
@@ -1646,11 +1464,11 @@ clean: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/clean
 # Target rules for target qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir
 
 # All Build rule for target.
-qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/all: ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/all: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/all: qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=82 "Built target qt_tutorials_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=83 "Built target qt_tutorials_generate_messages_lisp"
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1679,7 +1497,7 @@ clean: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/cl
 # Target rules for target qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir
 
 # All Build rule for target.
-qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/all: ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/all: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/all: qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/build
@@ -1875,7 +1693,7 @@ qt_ros/qt_tutorials/qlistener/preinstall:
 qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/all: qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/build.make qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/build.make qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=77,78,79 "Built target qlistener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=78,79,80 "Built target qlistener"
 .PHONY : qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/all
 
 # Include target in all.
@@ -1930,7 +1748,7 @@ qt_ros/qt_tutorials/qadd_server/preinstall:
 qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/all: qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=74,75,76 "Built target qadd_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=75,76,77 "Built target qadd_server"
 .PHONY : qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/all
 
 # Include target in all.
@@ -1985,7 +1803,7 @@ qt_ros/qt_tutorials/qadd_client/preinstall:
 qt_ros/qt_tutorials/qadd_client/CMakeFiles/qadd_client.dir/all: qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/all
 	$(MAKE) -f qt_ros/qt_tutorials/qadd_client/CMakeFiles/qadd_client.dir/build.make qt_ros/qt_tutorials/qadd_client/CMakeFiles/qadd_client.dir/depend
 	$(MAKE) -f qt_ros/qt_tutorials/qadd_client/CMakeFiles/qadd_client.dir/build.make qt_ros/qt_tutorials/qadd_client/CMakeFiles/qadd_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=71,72,73 "Built target qadd_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=72,73,74 "Built target qadd_client"
 .PHONY : qt_ros/qt_tutorials/qadd_client/CMakeFiles/qadd_client.dir/all
 
 # Include target in all.
@@ -2024,12 +1842,17 @@ projector_calib/all: projector_calib/CMakeFiles/p_calib.dir/all
 .PHONY : projector_calib/all
 
 # Convenience name for "clean" pass in the directory.
+projector_calib/clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 projector_calib/clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 projector_calib/clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-projector_calib/clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 projector_calib/clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 projector_calib/clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+projector_calib/clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+projector_calib/clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 projector_calib/clean: projector_calib/CMakeFiles/p_calib.dir/clean
+projector_calib/clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+projector_calib/clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+projector_calib/clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : projector_calib/clean
 
@@ -2037,6 +1860,38 @@ projector_calib/clean: projector_calib/CMakeFiles/p_calib.dir/clean
 projector_calib/preinstall:
 
 .PHONY : projector_calib/preinstall
+
+#=============================================================================
+# Target rules for target projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+.PHONY : projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_nodejs: projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# clean rule for target.
+projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+.PHONY : projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target projector_calib/CMakeFiles/sensor_msgs_generate_messages_eus.dir
@@ -2099,38 +1954,6 @@ projector_calib/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
-.PHONY : projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# clean rule for target.
-projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-.PHONY : projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
@@ -2199,13 +2022,77 @@ clean: projector_calib/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target projector_calib/CMakeFiles/p_calib.dir
 
 # All Build rule for target.
 projector_calib/CMakeFiles/p_calib.dir/all:
 	$(MAKE) -f projector_calib/CMakeFiles/p_calib.dir/build.make projector_calib/CMakeFiles/p_calib.dir/depend
 	$(MAKE) -f projector_calib/CMakeFiles/p_calib.dir/build.make projector_calib/CMakeFiles/p_calib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=69,70 "Built target p_calib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=71 "Built target p_calib"
 .PHONY : projector_calib/CMakeFiles/p_calib.dir/all
 
 # Include target in all.
@@ -2215,7 +2102,7 @@ all: projector_calib/CMakeFiles/p_calib.dir/all
 
 # Build rule for subdir invocation for target.
 projector_calib/CMakeFiles/p_calib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/p_calib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : projector_calib/CMakeFiles/p_calib.dir/rule
@@ -2232,6 +2119,102 @@ projector_calib/CMakeFiles/p_calib.dir/clean:
 
 # clean rule for target.
 clean: projector_calib/CMakeFiles/p_calib.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# clean rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_nodejs: projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# clean rule for target.
+projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
@@ -2889,7 +2872,7 @@ apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_gencpp.dir/all: apriltags_r
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_gencpp.dir/rule
@@ -2977,8 +2960,8 @@ clean: apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_gennodejs.dir/clean
 # Target rules for target apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir
 
 # All Build rule for target.
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/all: ai/CMakeFiles/std_msgs_generate_messages_py.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/all: controls/CMakeFiles/std_msgs_generate_messages_py.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetectionArray.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetection.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_py.dir/depend
@@ -3144,7 +3127,7 @@ apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/all: aprilt
 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/depend
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=3 "Built target apriltag_detector_nodelet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=4 "Built target apriltag_detector_nodelet"
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/all
 
 # Include target in all.
@@ -3154,7 +3137,7 @@ all: apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/all
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_nodelet.dir/rule
@@ -3451,7 +3434,7 @@ all: apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages.dir/
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages.dir/rule
@@ -3507,18 +3490,18 @@ clean: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_c
 # Target rules for target apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir
 
 # All Build rule for target.
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all: ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetectionArray.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetection.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/depend
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=13,14 "Built target apriltags_ros_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=14 "Built target apriltags_ros_generate_messages_cpp"
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/rule
@@ -3542,18 +3525,18 @@ clean: apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cp
 # Target rules for target apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir
 
 # All Build rule for target.
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all: ai/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetectionArray.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetection.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/depend
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=15 "Built target apriltags_ros_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=15,16 "Built target apriltags_ros_generate_messages_eus"
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_eus.dir/rule
@@ -3585,7 +3568,7 @@ apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_geneus.dir/all: apriltags_r
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_geneus.dir/rule
@@ -3609,18 +3592,18 @@ clean: apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_geneus.dir/clean
 # Target rules for target apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir
 
 # All Build rule for target.
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all: ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetectionArray.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetection.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/depend
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=16,17 "Built target apriltags_ros_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=17 "Built target apriltags_ros_generate_messages_lisp"
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_lisp.dir/rule
@@ -3684,7 +3667,7 @@ apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_genlisp.dir/all: apriltags_
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_genlisp.dir/rule
@@ -3708,8 +3691,8 @@ clean: apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_genlisp.dir/clean
 # Target rules for target apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir
 
 # All Build rule for target.
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/all: ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/all: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetectionArray.dir/all
 apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/_apriltags_ros_generate_messages_check_deps_AprilTagDetection.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_nodejs.dir/depend
@@ -3747,7 +3730,7 @@ apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all: apriltags_ros/
 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/apriltags_ros_generate_messages_cpp.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/depend
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=1 "Built target apriltag_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=2 "Built target apriltag_detector"
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all
 
 # Include target in all.
@@ -3757,7 +3740,7 @@ all: apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/rule
@@ -3785,7 +3768,7 @@ apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/all: apriltags
 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/depend
 	$(MAKE) -f apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/build.make apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=2 "Built target apriltag_detector_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=3 "Built target apriltag_detector_node"
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/all
 
 # Include target in all.
@@ -3795,7 +3778,7 @@ all: apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/all
 
 # Build rule for subdir invocation for target.
 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector_node.dir/rule
@@ -3828,16 +3811,17 @@ game_engine/all: game_engine/CMakeFiles/game_engine_generate_messages.dir/all
 game_engine/clean: game_engine/CMakeFiles/game_engine.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_genpy.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages_py.dir/clean
-game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
+game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_gennodejs.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages.dir/clean
 game_engine/clean: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/clean
+game_engine/clean: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/clean
+game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_gencpp.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_geneus.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/clean
 game_engine/clean: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/clean
-game_engine/clean: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
 game_engine/clean: game_engine/CMakeFiles/game_engine_genlisp.dir/clean
 
 .PHONY : game_engine/clean
@@ -3852,10 +3836,35 @@ game_engine/preinstall:
 
 # All Build rule for target.
 game_engine/CMakeFiles/game_engine.dir/all: apriltags_ros/apriltags/CMakeFiles/apriltags.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/std_msgs_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/roscpp_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/roscpp_generate_messages_eus.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 game_engine/CMakeFiles/game_engine.dir/all: apriltags_ros/apriltags_ros/CMakeFiles/apriltag_detector.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all
+game_engine/CMakeFiles/game_engine.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all
 	$(MAKE) -f game_engine/CMakeFiles/game_engine.dir/build.make game_engine/CMakeFiles/game_engine.dir/depend
 	$(MAKE) -f game_engine/CMakeFiles/game_engine.dir/build.make game_engine/CMakeFiles/game_engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target game_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target game_engine"
 .PHONY : game_engine/CMakeFiles/game_engine.dir/all
 
 # Include target in all.
@@ -3865,7 +3874,7 @@ all: game_engine/CMakeFiles/game_engine.dir/all
 
 # Build rule for subdir invocation for target.
 game_engine/CMakeFiles/game_engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : game_engine/CMakeFiles/game_engine.dir/rule
@@ -3897,7 +3906,7 @@ game_engine/CMakeFiles/game_engine_genpy.dir/all: game_engine/CMakeFiles/game_en
 
 # Build rule for subdir invocation for target.
 game_engine/CMakeFiles/game_engine_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : game_engine/CMakeFiles/game_engine_genpy.dir/rule
@@ -3921,18 +3930,19 @@ clean: game_engine/CMakeFiles/game_engine_genpy.dir/clean
 # Target rules for target game_engine/CMakeFiles/game_engine_generate_messages_py.dir
 
 # All Build rule for target.
-game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all: ai/CMakeFiles/std_msgs_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all: controls/CMakeFiles/std_msgs_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/all
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_py.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_py.dir/depend
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_py.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=57 "Built target game_engine_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=58,59 "Built target game_engine_generate_messages_py"
 .PHONY : game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 game_engine/CMakeFiles/game_engine_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : game_engine/CMakeFiles/game_engine_generate_messages_py.dir/rule
@@ -3953,37 +3963,38 @@ clean: game_engine/CMakeFiles/game_engine_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir
+# Target rules for target game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir
 
 # All Build rule for target.
-game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/all
-	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/depend
-	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=51 "Built target game_engine_generate_messages_cpp"
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: controls/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/all
+	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/depend
+	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=56,57 "Built target game_engine_generate_messages_nodejs"
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-game_engine_generate_messages_cpp: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+game_engine_generate_messages_nodejs: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
 
-.PHONY : game_engine_generate_messages_cpp
-
-# clean rule for target.
-game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean:
-	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
+.PHONY : game_engine_generate_messages_nodejs
 
 # clean rule for target.
-clean: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
+game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
@@ -4024,10 +4035,10 @@ clean: game_engine/CMakeFiles/game_engine_gennodejs.dir/clean
 
 # All Build rule for target.
 game_engine/CMakeFiles/game_engine_generate_messages.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_py.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages.dir/all: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages.dir/depend
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target game_engine_generate_messages"
@@ -4040,7 +4051,7 @@ all: game_engine/CMakeFiles/game_engine_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 game_engine/CMakeFiles/game_engine_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : game_engine/CMakeFiles/game_engine_generate_messages.dir/rule
@@ -4093,6 +4104,74 @@ clean: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDes
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir
+
+# All Build rule for target.
+game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all:
+	$(MAKE) -f game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/build.make game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/depend
+	$(MAKE) -f game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/build.make game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num= "Built target _game_engine_generate_messages_check_deps_UIState"
+.PHONY : game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all
+
+# Build rule for subdir invocation for target.
+game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/rule
+
+# Convenience name for target.
+_game_engine_generate_messages_check_deps_UIState: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/rule
+
+.PHONY : _game_engine_generate_messages_check_deps_UIState
+
+# clean rule for target.
+game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/clean:
+	$(MAKE) -f game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/build.make game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/clean
+.PHONY : game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/clean
+
+# clean rule for target.
+clean: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir
+
+# All Build rule for target.
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: controls/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/all
+	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/depend
+	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=50,51 "Built target game_engine_generate_messages_cpp"
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+game_engine_generate_messages_cpp: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/rule
+
+.PHONY : game_engine_generate_messages_cpp
+
+# clean rule for target.
+game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean:
+	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
+.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: game_engine/CMakeFiles/game_engine_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target game_engine/CMakeFiles/game_engine_gencpp.dir
 
 # All Build rule for target.
@@ -4104,7 +4183,7 @@ game_engine/CMakeFiles/game_engine_gencpp.dir/all: game_engine/CMakeFiles/game_e
 
 # Build rule for subdir invocation for target.
 game_engine/CMakeFiles/game_engine_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : game_engine/CMakeFiles/game_engine_gencpp.dir/rule
@@ -4160,9 +4239,10 @@ clean: game_engine/CMakeFiles/game_engine_geneus.dir/clean
 # Target rules for target game_engine/CMakeFiles/game_engine_generate_messages_eus.dir
 
 # All Build rule for target.
-game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all: ai/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all: controls/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/all
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/depend
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/build
@@ -4227,18 +4307,19 @@ clean: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDes
 # Target rules for target game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir
 
 # All Build rule for target.
-game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all: ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all: controls/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all: projector_calib/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/all
+game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_UIState.dir/all
 game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/all
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/depend
 	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=54 "Built target game_engine_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=54,55 "Built target game_engine_generate_messages_lisp"
 .PHONY : game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/rule
@@ -4259,41 +4340,6 @@ clean: game_engine/CMakeFiles/game_engine_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir
-
-# All Build rule for target.
-game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescription.dir/all
-game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all: game_engine/CMakeFiles/_game_engine_generate_messages_check_deps_RobotDescriptionArray.dir/all
-	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/depend
-	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=55,56 "Built target game_engine_generate_messages_nodejs"
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-game_engine_generate_messages_nodejs: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/rule
-
-.PHONY : game_engine_generate_messages_nodejs
-
-# clean rule for target.
-game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/build.make game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
-.PHONY : game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: game_engine/CMakeFiles/game_engine_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target game_engine/CMakeFiles/game_engine_genlisp.dir
 
 # All Build rule for target.
@@ -4305,7 +4351,7 @@ game_engine/CMakeFiles/game_engine_genlisp.dir/all: game_engine/CMakeFiles/game_
 
 # Build rule for subdir invocation for target.
 game_engine/CMakeFiles/game_engine_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 game_engine/CMakeFiles/game_engine_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
 .PHONY : game_engine/CMakeFiles/game_engine_genlisp.dir/rule
@@ -4322,6 +4368,61 @@ game_engine/CMakeFiles/game_engine_genlisp.dir/clean:
 
 # clean rule for target.
 clean: game_engine/CMakeFiles/game_engine_genlisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ai
+
+# Convenience name for "all" pass in the directory.
+ai/all: ai/CMakeFiles/ai.dir/all
+
+.PHONY : ai/all
+
+# Convenience name for "clean" pass in the directory.
+ai/clean: ai/CMakeFiles/ai.dir/clean
+
+.PHONY : ai/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ai/preinstall:
+
+.PHONY : ai/preinstall
+
+#=============================================================================
+# Target rules for target ai/CMakeFiles/ai.dir
+
+# All Build rule for target.
+ai/CMakeFiles/ai.dir/all:
+	$(MAKE) -f ai/CMakeFiles/ai.dir/build.make ai/CMakeFiles/ai.dir/depend
+	$(MAKE) -f ai/CMakeFiles/ai.dir/build.make ai/CMakeFiles/ai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=1 "Built target ai"
+.PHONY : ai/CMakeFiles/ai.dir/all
+
+# Include target in all.
+all: ai/CMakeFiles/ai.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ai/CMakeFiles/ai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/ai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/Downloads/3pi_gaming/build/CMakeFiles 0
+.PHONY : ai/CMakeFiles/ai.dir/rule
+
+# Convenience name for target.
+ai: ai/CMakeFiles/ai.dir/rule
+
+.PHONY : ai
+
+# clean rule for target.
+ai/CMakeFiles/ai.dir/clean:
+	$(MAKE) -f ai/CMakeFiles/ai.dir/build.make ai/CMakeFiles/ai.dir/clean
+.PHONY : ai/CMakeFiles/ai.dir/clean
+
+# clean rule for target.
+clean: ai/CMakeFiles/ai.dir/clean
 
 .PHONY : clean
 
@@ -4354,7 +4455,7 @@ uvc_camera/preinstall:
 uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/all:
 	$(MAKE) -f uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/build.make uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/depend
 	$(MAKE) -f uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/build.make uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=66,67,68 "Built target nodelet_uvc_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=68,69,70 "Built target nodelet_uvc_camera"
 .PHONY : uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/all
 
 # Include target in all.

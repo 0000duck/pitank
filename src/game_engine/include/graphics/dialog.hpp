@@ -17,6 +17,8 @@
 #include "../objects/racemap.hpp"
 #include "../objects/game_clock.hpp"
 #include "../graphics/main_window.hpp"
+#include "game_engine/RobotDescriptionArray.h"
+#include "game_engine/UIState.h"
 
 using namespace LibSerial;
 

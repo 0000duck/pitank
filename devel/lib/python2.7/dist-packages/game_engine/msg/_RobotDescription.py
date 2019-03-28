@@ -7,15 +7,15 @@ import struct
 
 
 class RobotDescription(genpy.Message):
-  _md5sum = "343c60a2448fde8461e5a48bb9f857c4"
+  _md5sum = "35b35bffdcea4af3c10704857437163d"
   _type = "game_engine/RobotDescription"
   _has_header = False #flag to mark the presence of a Header object
   _full_text = """int8 teamId
 int8 tagId
 int16 x
 int16 y
-float32 height
-float32 angle
+float64 height
+float64 angle
 uint8 addr0
 uint8 addr1
 int8 vel1
@@ -31,7 +31,7 @@ int8 kills
 
 """
   __slots__ = ['teamId','tagId','x','y','height','angle','addr0','addr1','vel1','vel2','previous_vel','collisionFlag','threadIsRunning','collisionStateVar','autonomous_drive','immobilized','damage','kills']
-  _slot_types = ['int8','int8','int16','int16','float32','float32','uint8','uint8','int8','int8','int8','bool','bool','int8','bool','bool','int8','int8']
+  _slot_types = ['int8','int8','int16','int16','float64','float64','uint8','uint8','int8','int8','int8','bool','bool','int8','bool','bool','int8','int8']
 
   def __init__(self, *args, **kwds):
     """
@@ -119,7 +119,7 @@ int8 kills
     """
     try:
       _x = self
-      buff.write(_get_struct_2b2h2f2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
+      buff.write(_get_struct_2b2h2d2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -132,8 +132,8 @@ int8 kills
       end = 0
       _x = self
       start = end
-      end += 26
-      (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2f2B3b2Bb2B2b().unpack(str[start:end])
+      end += 34
+      (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2d2B3b2Bb2B2b().unpack(str[start:end])
       self.collisionFlag = bool(self.collisionFlag)
       self.threadIsRunning = bool(self.threadIsRunning)
       self.autonomous_drive = bool(self.autonomous_drive)
@@ -151,7 +151,7 @@ int8 kills
     """
     try:
       _x = self
-      buff.write(_get_struct_2b2h2f2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
+      buff.write(_get_struct_2b2h2d2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -165,8 +165,8 @@ int8 kills
       end = 0
       _x = self
       start = end
-      end += 26
-      (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2f2B3b2Bb2B2b().unpack(str[start:end])
+      end += 34
+      (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2d2B3b2Bb2B2b().unpack(str[start:end])
       self.collisionFlag = bool(self.collisionFlag)
       self.threadIsRunning = bool(self.threadIsRunning)
       self.autonomous_drive = bool(self.autonomous_drive)
@@ -179,9 +179,9 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_2b2h2f2B3b2Bb2B2b = None
-def _get_struct_2b2h2f2B3b2Bb2B2b():
-    global _struct_2b2h2f2B3b2Bb2B2b
-    if _struct_2b2h2f2B3b2Bb2B2b is None:
-        _struct_2b2h2f2B3b2Bb2B2b = struct.Struct("<2b2h2f2B3b2Bb2B2b")
-    return _struct_2b2h2f2B3b2Bb2B2b
+_struct_2b2h2d2B3b2Bb2B2b = None
+def _get_struct_2b2h2d2B3b2Bb2B2b():
+    global _struct_2b2h2d2B3b2Bb2B2b
+    if _struct_2b2h2d2B3b2Bb2B2b is None:
+        _struct_2b2h2d2B3b2Bb2B2b = struct.Struct("<2b2h2d2B3b2Bb2B2b")
+    return _struct_2b2h2d2B3b2Bb2B2b

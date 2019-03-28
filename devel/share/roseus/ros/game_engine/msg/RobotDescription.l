@@ -123,10 +123,10 @@
     2
     ;; int16 _y
     2
-    ;; float32 _height
-    4
-    ;; float32 _angle
-    4
+    ;; float64 _height
+    8
+    ;; float64 _angle
+    8
     ;; uint8 _addr0
     1
     ;; uint8 _addr1
@@ -164,10 +164,10 @@
        (write-word _x s)
      ;; int16 _y
        (write-word _y s)
-     ;; float32 _height
-       (sys::poke _height (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
-     ;; float32 _angle
-       (sys::poke _angle (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float64 _height
+       (sys::poke _height (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; float64 _angle
+       (sys::poke _angle (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
      ;; uint8 _addr0
        (write-byte _addr0 s)
      ;; uint8 _addr1
@@ -206,10 +206,10 @@
      (setq _x (sys::peek buf ptr- :short)) (incf ptr- 2)
    ;; int16 _y
      (setq _y (sys::peek buf ptr- :short)) (incf ptr- 2)
-   ;; float32 _height
-     (setq _height (sys::peek buf ptr- :float)) (incf ptr- 4)
-   ;; float32 _angle
-     (setq _angle (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float64 _height
+     (setq _height (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; float64 _angle
+     (setq _angle (sys::peek buf ptr- :double)) (incf ptr- 8)
    ;; uint8 _addr0
      (setq _addr0 (sys::peek buf ptr- :char)) (incf ptr- 1)
    ;; uint8 _addr1
@@ -244,15 +244,15 @@
    self)
   )
 
-(setf (get game_engine::RobotDescription :md5sum-) "343c60a2448fde8461e5a48bb9f857c4")
+(setf (get game_engine::RobotDescription :md5sum-) "35b35bffdcea4af3c10704857437163d")
 (setf (get game_engine::RobotDescription :datatype-) "game_engine/RobotDescription")
 (setf (get game_engine::RobotDescription :definition-)
       "int8 teamId
 int8 tagId
 int16 x
 int16 y
-float32 height
-float32 angle
+float64 height
+float64 angle
 uint8 addr0
 uint8 addr1
 int8 vel1
@@ -271,6 +271,6 @@ int8 kills
 
 
 
-(provide :game_engine/RobotDescription "343c60a2448fde8461e5a48bb9f857c4")
+(provide :game_engine/RobotDescription "35b35bffdcea4af3c10704857437163d")
 
 

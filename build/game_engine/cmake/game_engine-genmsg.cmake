@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "game_engine: 2 messages, 0 services")
+message(STATUS "game_engine: 3 messages, 0 services")
 
 set(MSG_I_FLAGS "-Igame_engine:/home/sergio/Downloads/3pi_gaming/src/game_engine/msg;-Istd_msgs:/opt/ros/lunar/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/lunar/share/geometry_msgs/cmake/../msg")
 
@@ -16,6 +16,11 @@ add_custom_target(game_engine_generate_messages ALL)
 # verify that message/service dependencies have not changed since configure
 
 
+
+get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg" NAME_WE)
+add_custom_target(_game_engine_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "game_engine" "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg" ""
+)
 
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg" NAME_WE)
 add_custom_target(_game_engine_generate_messages_check_deps_${_filename}
@@ -33,6 +38,12 @@ add_custom_target(_game_engine_generate_messages_check_deps_${_filename}
 
 ### Section generating for lang: gencpp
 ### Generating Messages
+_generate_msg_cpp(game_engine
+  "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/game_engine
+)
 _generate_msg_cpp(game_engine
   "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg"
   "${MSG_I_FLAGS}"
@@ -60,6 +71,8 @@ add_custom_target(game_engine_generate_messages_cpp
 add_dependencies(game_engine_generate_messages game_engine_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg" NAME_WE)
+add_dependencies(game_engine_generate_messages_cpp _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg" NAME_WE)
 add_dependencies(game_engine_generate_messages_cpp _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg" NAME_WE)
@@ -74,6 +87,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS game_engine_generate_messages_cpp)
 
 ### Section generating for lang: geneus
 ### Generating Messages
+_generate_msg_eus(game_engine
+  "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/game_engine
+)
 _generate_msg_eus(game_engine
   "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg"
   "${MSG_I_FLAGS}"
@@ -101,6 +120,8 @@ add_custom_target(game_engine_generate_messages_eus
 add_dependencies(game_engine_generate_messages game_engine_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg" NAME_WE)
+add_dependencies(game_engine_generate_messages_eus _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg" NAME_WE)
 add_dependencies(game_engine_generate_messages_eus _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg" NAME_WE)
@@ -115,6 +136,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS game_engine_generate_messages_eus)
 
 ### Section generating for lang: genlisp
 ### Generating Messages
+_generate_msg_lisp(game_engine
+  "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/game_engine
+)
 _generate_msg_lisp(game_engine
   "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg"
   "${MSG_I_FLAGS}"
@@ -142,6 +169,8 @@ add_custom_target(game_engine_generate_messages_lisp
 add_dependencies(game_engine_generate_messages game_engine_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg" NAME_WE)
+add_dependencies(game_engine_generate_messages_lisp _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg" NAME_WE)
 add_dependencies(game_engine_generate_messages_lisp _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg" NAME_WE)
@@ -156,6 +185,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS game_engine_generate_messages_lisp)
 
 ### Section generating for lang: gennodejs
 ### Generating Messages
+_generate_msg_nodejs(game_engine
+  "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/game_engine
+)
 _generate_msg_nodejs(game_engine
   "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg"
   "${MSG_I_FLAGS}"
@@ -183,6 +218,8 @@ add_custom_target(game_engine_generate_messages_nodejs
 add_dependencies(game_engine_generate_messages game_engine_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg" NAME_WE)
+add_dependencies(game_engine_generate_messages_nodejs _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg" NAME_WE)
 add_dependencies(game_engine_generate_messages_nodejs _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg" NAME_WE)
@@ -197,6 +234,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS game_engine_generate_messages_nodej
 
 ### Section generating for lang: genpy
 ### Generating Messages
+_generate_msg_py(game_engine
+  "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/game_engine
+)
 _generate_msg_py(game_engine
   "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg"
   "${MSG_I_FLAGS}"
@@ -224,6 +267,8 @@ add_custom_target(game_engine_generate_messages_py
 add_dependencies(game_engine_generate_messages game_engine_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg" NAME_WE)
+add_dependencies(game_engine_generate_messages_py _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg" NAME_WE)
 add_dependencies(game_engine_generate_messages_py _game_engine_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg" NAME_WE)

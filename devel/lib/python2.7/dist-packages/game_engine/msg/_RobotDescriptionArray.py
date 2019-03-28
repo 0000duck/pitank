@@ -8,7 +8,7 @@ import struct
 import game_engine.msg
 
 class RobotDescriptionArray(genpy.Message):
-  _md5sum = "4200d8a7d47e39131affb929c77aa595"
+  _md5sum = "a10b3056d03141a072c7ffcaaf2ce2ff"
   _type = "game_engine/RobotDescriptionArray"
   _has_header = False #flag to mark the presence of a Header object
   _full_text = """RobotDescription[] robot
@@ -19,8 +19,8 @@ int8 teamId
 int8 tagId
 int16 x
 int16 y
-float32 height
-float32 angle
+float64 height
+float64 angle
 uint8 addr0
 uint8 addr1
 int8 vel1
@@ -76,7 +76,7 @@ int8 kills
       buff.write(_struct_I.pack(length))
       for val1 in self.robot:
         _x = val1
-        buff.write(_get_struct_2b2h2f2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
+        buff.write(_get_struct_2b2h2d2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -97,8 +97,8 @@ int8 kills
         val1 = game_engine.msg.RobotDescription()
         _x = val1
         start = end
-        end += 26
-        (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2f2B3b2Bb2B2b().unpack(str[start:end])
+        end += 34
+        (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2d2B3b2Bb2B2b().unpack(str[start:end])
         val1.collisionFlag = bool(val1.collisionFlag)
         val1.threadIsRunning = bool(val1.threadIsRunning)
         val1.autonomous_drive = bool(val1.autonomous_drive)
@@ -120,7 +120,7 @@ int8 kills
       buff.write(_struct_I.pack(length))
       for val1 in self.robot:
         _x = val1
-        buff.write(_get_struct_2b2h2f2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
+        buff.write(_get_struct_2b2h2d2B3b2Bb2B2b().pack(_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -142,8 +142,8 @@ int8 kills
         val1 = game_engine.msg.RobotDescription()
         _x = val1
         start = end
-        end += 26
-        (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2f2B3b2Bb2B2b().unpack(str[start:end])
+        end += 34
+        (_x.teamId, _x.tagId, _x.x, _x.y, _x.height, _x.angle, _x.addr0, _x.addr1, _x.vel1, _x.vel2, _x.previous_vel, _x.collisionFlag, _x.threadIsRunning, _x.collisionStateVar, _x.autonomous_drive, _x.immobilized, _x.damage, _x.kills,) = _get_struct_2b2h2d2B3b2Bb2B2b().unpack(str[start:end])
         val1.collisionFlag = bool(val1.collisionFlag)
         val1.threadIsRunning = bool(val1.threadIsRunning)
         val1.autonomous_drive = bool(val1.autonomous_drive)
@@ -157,9 +157,9 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_2b2h2f2B3b2Bb2B2b = None
-def _get_struct_2b2h2f2B3b2Bb2B2b():
-    global _struct_2b2h2f2B3b2Bb2B2b
-    if _struct_2b2h2f2B3b2Bb2B2b is None:
-        _struct_2b2h2f2B3b2Bb2B2b = struct.Struct("<2b2h2f2B3b2Bb2B2b")
-    return _struct_2b2h2f2B3b2Bb2B2b
+_struct_2b2h2d2B3b2Bb2B2b = None
+def _get_struct_2b2h2d2B3b2Bb2B2b():
+    global _struct_2b2h2d2B3b2Bb2B2b
+    if _struct_2b2h2d2B3b2Bb2B2b is None:
+        _struct_2b2h2d2B3b2Bb2B2b = struct.Struct("<2b2h2d2B3b2Bb2B2b")
+    return _struct_2b2h2d2B3b2Bb2B2b

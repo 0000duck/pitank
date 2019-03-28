@@ -58,16 +58,16 @@
   "game_engine/RobotDescriptionArray")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<RobotDescriptionArray>)))
   "Returns md5sum for a message object of type '<RobotDescriptionArray>"
-  "4200d8a7d47e39131affb929c77aa595")
+  "a10b3056d03141a072c7ffcaaf2ce2ff")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'RobotDescriptionArray)))
   "Returns md5sum for a message object of type 'RobotDescriptionArray"
-  "4200d8a7d47e39131affb929c77aa595")
+  "a10b3056d03141a072c7ffcaaf2ce2ff")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<RobotDescriptionArray>)))
   "Returns full string definition for message of type '<RobotDescriptionArray>"
-  (cl:format cl:nil "RobotDescription[] robot~%~%================================================================================~%MSG: game_engine/RobotDescription~%int8 teamId~%int8 tagId~%int16 x~%int16 y~%float32 height~%float32 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
+  (cl:format cl:nil "RobotDescription[] robot~%~%================================================================================~%MSG: game_engine/RobotDescription~%int8 teamId~%int8 tagId~%int16 x~%int16 y~%float64 height~%float64 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'RobotDescriptionArray)))
   "Returns full string definition for message of type 'RobotDescriptionArray"
-  (cl:format cl:nil "RobotDescription[] robot~%~%================================================================================~%MSG: game_engine/RobotDescription~%int8 teamId~%int8 tagId~%int16 x~%int16 y~%float32 height~%float32 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
+  (cl:format cl:nil "RobotDescription[] robot~%~%================================================================================~%MSG: game_engine/RobotDescription~%int8 teamId~%int8 tagId~%int16 x~%int16 y~%float64 height~%float64 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <RobotDescriptionArray>))
   (cl:+ 0
      4 (cl:reduce #'cl:+ (cl:slot-value msg 'robot) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ (roslisp-msg-protocol:serialization-length ele))))

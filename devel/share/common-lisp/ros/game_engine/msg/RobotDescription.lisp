@@ -212,16 +212,24 @@
     (cl:write-byte (cl:ldb (cl:byte 8 0) unsigned) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) unsigned) ostream)
     )
-  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'height))))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'height))))
     (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'angle))))
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'angle))))
     (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
   (cl:write-byte (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'addr0)) ostream)
   (cl:write-byte (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'addr1)) ostream)
   (cl:let* ((signed (cl:slot-value msg 'vel1)) (unsigned (cl:if (cl:< signed 0) (cl:+ signed 256) signed)))
@@ -268,13 +276,21 @@
       (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'height) (roslisp-utils:decode-single-float-bits bits)))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'height) (roslisp-utils:decode-double-float-bits bits)))
     (cl:let ((bits 0))
       (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'angle) (roslisp-utils:decode-single-float-bits bits)))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'angle) (roslisp-utils:decode-double-float-bits bits)))
     (cl:setf (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'addr0)) (cl:read-byte istream))
     (cl:setf (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'addr1)) (cl:read-byte istream))
     (cl:let ((unsigned 0))
@@ -309,24 +325,24 @@
   "game_engine/RobotDescription")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<RobotDescription>)))
   "Returns md5sum for a message object of type '<RobotDescription>"
-  "343c60a2448fde8461e5a48bb9f857c4")
+  "35b35bffdcea4af3c10704857437163d")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'RobotDescription)))
   "Returns md5sum for a message object of type 'RobotDescription"
-  "343c60a2448fde8461e5a48bb9f857c4")
+  "35b35bffdcea4af3c10704857437163d")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<RobotDescription>)))
   "Returns full string definition for message of type '<RobotDescription>"
-  (cl:format cl:nil "int8 teamId~%int8 tagId~%int16 x~%int16 y~%float32 height~%float32 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
+  (cl:format cl:nil "int8 teamId~%int8 tagId~%int16 x~%int16 y~%float64 height~%float64 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'RobotDescription)))
   "Returns full string definition for message of type 'RobotDescription"
-  (cl:format cl:nil "int8 teamId~%int8 tagId~%int16 x~%int16 y~%float32 height~%float32 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
+  (cl:format cl:nil "int8 teamId~%int8 tagId~%int16 x~%int16 y~%float64 height~%float64 angle~%uint8 addr0~%uint8 addr1~%int8 vel1~%int8 vel2~%int8 previous_vel~%bool collisionFlag~%bool threadIsRunning~%int8 collisionStateVar~%bool autonomous_drive~%bool immobilized~%int8 damage~%int8 kills~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <RobotDescription>))
   (cl:+ 0
      1
      1
      2
      2
-     4
-     4
+     8
+     8
      1
      1
      1

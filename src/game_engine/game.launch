@@ -75,4 +75,7 @@
   </rosparam>
   </node>
 
+  <node pkg="ai" type="ai" name="ai" output="screen">
+  </node>
+
 </launch>

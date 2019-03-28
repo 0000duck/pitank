@@ -53,27 +53,34 @@ CMAKE_BINARY_DIR = /home/sergio/Downloads/3pi_gaming/build
 # Include the progress variables for this target.
 include game_engine/CMakeFiles/game_engine_generate_messages_eus.dir/progress.make
 
+game_engine/CMakeFiles/game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/UIState.l
 game_engine/CMakeFiles/game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescriptionArray.l
 game_engine/CMakeFiles/game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescription.l
 game_engine/CMakeFiles/game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/manifest.l
 
 
+/home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/UIState.l: /opt/ros/lunar/lib/geneus/gen_eus.py
+/home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/UIState.l: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from game_engine/UIState.msg"
+	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg -Igame_engine:/home/sergio/Downloads/3pi_gaming/src/game_engine/msg -Istd_msgs:/opt/ros/lunar/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/lunar/share/geometry_msgs/cmake/../msg -p game_engine -o /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg
+
 /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescriptionArray.l: /opt/ros/lunar/lib/geneus/gen_eus.py
 /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescriptionArray.l: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg
 /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescriptionArray.l: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from game_engine/RobotDescriptionArray.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from game_engine/RobotDescriptionArray.msg"
 	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg -Igame_engine:/home/sergio/Downloads/3pi_gaming/src/game_engine/msg -Istd_msgs:/opt/ros/lunar/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/lunar/share/geometry_msgs/cmake/../msg -p game_engine -o /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg
 
 /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescription.l: /opt/ros/lunar/lib/geneus/gen_eus.py
 /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescription.l: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from game_engine/RobotDescription.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from game_engine/RobotDescription.msg"
 	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg -Igame_engine:/home/sergio/Downloads/3pi_gaming/src/game_engine/msg -Istd_msgs:/opt/ros/lunar/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/lunar/share/geometry_msgs/cmake/../msg -p game_engine -o /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg
 
 /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/manifest.l: /opt/ros/lunar/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for game_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for game_engine"
 	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine game_engine std_msgs geometry_msgs
 
 game_engine_generate_messages_eus: game_engine/CMakeFiles/game_engine_generate_messages_eus
+game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/UIState.l
 game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescriptionArray.l
 game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/msg/RobotDescription.l
 game_engine_generate_messages_eus: /home/sergio/Downloads/3pi_gaming/devel/share/roseus/ros/game_engine/manifest.l

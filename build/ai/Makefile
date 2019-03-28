@@ -100,16 +100,16 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target install/local
+install/local/fast: install/local
 
-.PHONY : test/fast
+.PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -122,16 +122,16 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target install/local
-install/local/fast: install/local
+# Special rule for the target test
+test/fast: test
 
-.PHONY : install/local/fast
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,304 +166,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+ai/CMakeFiles/ai.dir/rule:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/ai.dir/rule
+.PHONY : ai/CMakeFiles/ai.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_py: ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+ai: ai/CMakeFiles/ai.dir/rule
 
-.PHONY : geometry_msgs_generate_messages_py
+.PHONY : ai
 
 # fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
+ai/fast:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/ai.dir/build.make ai/CMakeFiles/ai.dir/build
+.PHONY : ai/fast
 
-# Convenience name for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+src/control.o: src/control.cpp.o
 
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : src/control.o
 
-.PHONY : geometry_msgs_generate_messages_cpp
+# target to build an object file
+src/control.cpp.o:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/ai.dir/build.make ai/CMakeFiles/ai.dir/src/control.cpp.o
+.PHONY : src/control.cpp.o
 
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
+src/control.i: src/control.cpp.i
 
-# Convenience name for target.
-ai/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : src/control.i
 
-# Convenience name for target.
-roscpp_generate_messages_cpp: ai/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+# target to preprocess a source file
+src/control.cpp.i:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/ai.dir/build.make ai/CMakeFiles/ai.dir/src/control.cpp.i
+.PHONY : src/control.cpp.i
 
-.PHONY : roscpp_generate_messages_cpp
+src/control.s: src/control.cpp.s
 
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
+.PHONY : src/control.s
 
-# Convenience name for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-ai/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: ai/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ai/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: ai/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-ai/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: ai/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ai/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ai/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ai/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: ai/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ai/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-# Convenience name for target.
-ai/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: ai/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_py.dir/build.make ai/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-.PHONY : roscpp_generate_messages_nodejs
-
-# fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ai/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f CMakeFiles/Makefile2 ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ai/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+# target to generate assembly for a file
+src/control.cpp.s:
+	cd /home/sergio/Downloads/3pi_gaming/build && $(MAKE) -f ai/CMakeFiles/ai.dir/build.make ai/CMakeFiles/ai.dir/src/control.cpp.s
+.PHONY : src/control.cpp.s
 
 # Help Target
 help:
@@ -475,29 +217,13 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... install/strip"
+	@echo "... ai"
 	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... test"
+	@echo "... src/control.o"
+	@echo "... src/control.i"
+	@echo "... src/control.s"
 .PHONY : help
 
 

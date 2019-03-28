@@ -4,6 +4,9 @@
 game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: game_engine/include/graphics/moc_dialog.cxx
 game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetection.h
 game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetectionArray.h
+game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescription.h
+game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescriptionArray.h
+game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/UIState.h
 game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/dialog.hpp
 game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/main_window.hpp
 game_engine/CMakeFiles/game_engine.dir/include/graphics/moc_dialog.cxx.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/objects/bullet.hpp
@@ -7962,6 +7965,9 @@ game_engine/CMakeFiles/game_engine.dir/include/utils/moc_rosConnection.cxx.o: /u
 
 game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetection.h
 game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetectionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescription.h
+game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescriptionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/UIState.h
 game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/dialog.hpp
 game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/main_window.hpp
 game_engine/CMakeFiles/game_engine.dir/src/graphics/dialog.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/objects/bullet.hpp
@@ -9236,6 +9242,9 @@ game_engine/CMakeFiles/game_engine.dir/src/graphics/main_window.cpp.o: game_engi
 
 game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetection.h
 game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetectionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescription.h
+game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescriptionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/UIState.h
 game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/dialog.hpp
 game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/main_window.hpp
 game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/objects/bullet.hpp
@@ -9927,6 +9936,9 @@ game_engine/CMakeFiles/game_engine.dir/src/graphics/map_drawer.cpp.o: game_engin
 
 game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetection.h
 game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetectionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescription.h
+game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescriptionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/UIState.h
 game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/dialog.hpp
 game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/main_window.hpp
 game_engine/CMakeFiles/game_engine.dir/src/main.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/objects/bullet.hpp
@@ -11921,6 +11933,9 @@ game_engine/CMakeFiles/game_engine.dir/src/objects/circle.cpp.o: /usr/include/qt
 
 game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetection.h
 game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/apriltags_ros/AprilTagDetectionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescription.h
+game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/RobotDescriptionArray.h
+game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/devel/include/game_engine/UIState.h
 game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/dialog.hpp
 game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/graphics/main_window.hpp
 game_engine/CMakeFiles/game_engine.dir/src/objects/controller.cpp.o: /home/sergio/Downloads/3pi_gaming/src/game_engine/include/objects/bullet.hpp

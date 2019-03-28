@@ -61,7 +61,7 @@
    self)
   )
 
-(setf (get game_engine::RobotDescriptionArray :md5sum-) "4200d8a7d47e39131affb929c77aa595")
+(setf (get game_engine::RobotDescriptionArray :md5sum-) "a10b3056d03141a072c7ffcaaf2ce2ff")
 (setf (get game_engine::RobotDescriptionArray :datatype-) "game_engine/RobotDescriptionArray")
 (setf (get game_engine::RobotDescriptionArray :definition-)
       "RobotDescription[] robot
@@ -72,8 +72,8 @@ int8 teamId
 int8 tagId
 int16 x
 int16 y
-float32 height
-float32 angle
+float64 height
+float64 angle
 uint8 addr0
 uint8 addr1
 int8 vel1
@@ -92,6 +92,6 @@ int8 kills
 
 
 
-(provide :game_engine/RobotDescriptionArray "4200d8a7d47e39131affb929c77aa595")
+(provide :game_engine/RobotDescriptionArray "a10b3056d03141a072c7ffcaaf2ce2ff")
 
 

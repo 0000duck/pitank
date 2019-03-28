@@ -966,9 +966,9 @@ void Dialog::convertRobotToMessage(){
         r_description.vel1 = robot[i].vel1;
         r_description.vel2 = robot[i].vel2;
         r_description.previous_vel = robot[i].previous_vel;
-        r_description.colisionFlag = robot[i].colisionFlag;
+        r_description.collisionFlag = robot[i].collisionFlag;
         r_description.threadIsRunning = robot[i].threadIsRunning;
-        r_description.colisionStateVar = robot[i].colisionStateVar;
+        r_description.collisionStateVar = robot[i].collisionStateVar;
         r_description.autonomous_drive = robot[i].autonomous_drive;
         r_description.immobilized = robot[i].immobilized;
         r_description.damage = robot[i].damage;

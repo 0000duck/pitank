@@ -53,29 +53,37 @@ CMAKE_BINARY_DIR = /home/sergio/Downloads/3pi_gaming/build
 # Include the progress variables for this target.
 include game_engine/CMakeFiles/game_engine_generate_messages_py.dir/progress.make
 
+game_engine/CMakeFiles/game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_UIState.py
 game_engine/CMakeFiles/game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescriptionArray.py
 game_engine/CMakeFiles/game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescription.py
 game_engine/CMakeFiles/game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/__init__.py
 
 
+/home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_UIState.py: /opt/ros/lunar/lib/genpy/genmsg_py.py
+/home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_UIState.py: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG game_engine/UIState"
+	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/UIState.msg -Igame_engine:/home/sergio/Downloads/3pi_gaming/src/game_engine/msg -Istd_msgs:/opt/ros/lunar/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/lunar/share/geometry_msgs/cmake/../msg -p game_engine -o /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg
+
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescriptionArray.py: /opt/ros/lunar/lib/genpy/genmsg_py.py
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescriptionArray.py: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescriptionArray.py: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG game_engine/RobotDescriptionArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG game_engine/RobotDescriptionArray"
 	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescriptionArray.msg -Igame_engine:/home/sergio/Downloads/3pi_gaming/src/game_engine/msg -Istd_msgs:/opt/ros/lunar/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/lunar/share/geometry_msgs/cmake/../msg -p game_engine -o /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg
 
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescription.py: /opt/ros/lunar/lib/genpy/genmsg_py.py
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescription.py: /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG game_engine/RobotDescription"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG game_engine/RobotDescription"
 	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sergio/Downloads/3pi_gaming/src/game_engine/msg/RobotDescription.msg -Igame_engine:/home/sergio/Downloads/3pi_gaming/src/game_engine/msg -Istd_msgs:/opt/ros/lunar/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/lunar/share/geometry_msgs/cmake/../msg -p game_engine -o /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg
 
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/__init__.py: /opt/ros/lunar/lib/genpy/genmsg_py.py
+/home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/__init__.py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_UIState.py
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/__init__.py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescriptionArray.py
 /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/__init__.py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescription.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for game_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/Downloads/3pi_gaming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for game_engine"
 	cd /home/sergio/Downloads/3pi_gaming/build/game_engine && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/lunar/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg --initpy
 
 game_engine_generate_messages_py: game_engine/CMakeFiles/game_engine_generate_messages_py
+game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_UIState.py
 game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescriptionArray.py
 game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/_RobotDescription.py
 game_engine_generate_messages_py: /home/sergio/Downloads/3pi_gaming/devel/lib/python2.7/dist-packages/game_engine/msg/__init__.py

@@ -160,9 +160,9 @@ class RobotDescription {
     // Serialize message field [y]
     bufferOffset = _serializer.int16(obj.y, buffer, bufferOffset);
     // Serialize message field [height]
-    bufferOffset = _serializer.float32(obj.height, buffer, bufferOffset);
+    bufferOffset = _serializer.float64(obj.height, buffer, bufferOffset);
     // Serialize message field [angle]
-    bufferOffset = _serializer.float32(obj.angle, buffer, bufferOffset);
+    bufferOffset = _serializer.float64(obj.angle, buffer, bufferOffset);
     // Serialize message field [addr0]
     bufferOffset = _serializer.uint8(obj.addr0, buffer, bufferOffset);
     // Serialize message field [addr1]
@@ -203,9 +203,9 @@ class RobotDescription {
     // Deserialize message field [y]
     data.y = _deserializer.int16(buffer, bufferOffset);
     // Deserialize message field [height]
-    data.height = _deserializer.float32(buffer, bufferOffset);
+    data.height = _deserializer.float64(buffer, bufferOffset);
     // Deserialize message field [angle]
-    data.angle = _deserializer.float32(buffer, bufferOffset);
+    data.angle = _deserializer.float64(buffer, bufferOffset);
     // Deserialize message field [addr0]
     data.addr0 = _deserializer.uint8(buffer, bufferOffset);
     // Deserialize message field [addr1]
@@ -234,7 +234,7 @@ class RobotDescription {
   }
 
   static getMessageSize(object) {
-    return 26;
+    return 34;
   }
 
   static datatype() {
@@ -244,7 +244,7 @@ class RobotDescription {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '343c60a2448fde8461e5a48bb9f857c4';
+    return '35b35bffdcea4af3c10704857437163d';
   }
 
   static messageDefinition() {
@@ -254,8 +254,8 @@ class RobotDescription {
     int8 tagId
     int16 x
     int16 y
-    float32 height
-    float32 angle
+    float64 height
+    float64 angle
     uint8 addr0
     uint8 addr1
     int8 vel1
